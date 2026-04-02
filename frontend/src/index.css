@@ -1,0 +1,21 @@
+/* src/index.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f8fafc;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, button {
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

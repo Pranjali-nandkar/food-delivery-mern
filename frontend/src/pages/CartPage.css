@@ -1,0 +1,125 @@
+.cart-page {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  font-family: 'Inter', sans-serif;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.cart-page h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.restaurant-cart {
+  margin-bottom: 40px;
+  padding: 25px;
+  border: 1px solid #f1f2f6;
+  border-radius: 15px;
+  background-color: #fdfdfd;
+}
+
+.restaurant-cart h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #f1f2f6;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.cart-item-info strong {
+  display: block;
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.cart-item-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.quantity-input {
+  width: 60px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.remove-btn {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s;
+}
+
+.remove-btn:hover {
+  background-color: #ff6b81;
+}
+
+.cart-summary {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  text-align: right;
+}
+
+.cart-summary h3 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.checkout-btn {
+  background-color: #e67e22;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.checkout-btn:hover {
+  background-color: #d35400;
+  transform: translateY(-2px);
+}
+  

@@ -1,0 +1,55 @@
+/* src/pages/RegisterPage.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+  }
+  
+  .register-box {
+    background: white;
+    padding: 3rem;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+  }
+  
+  .register-box h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .register-box input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .register-box button {
+    width: 100%;
+    padding: 12px;
+    background: #2bc0e4;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+    cursor: pointer;
+  }
+  
+  .register-box button:hover {
+    background: #219ebc;
+  }
+  
+  .switch-login {
+    margin-top: 1rem;
+    text-align: center;
+    color: #555;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
